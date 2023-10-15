@@ -10,6 +10,7 @@ Consulta simples das bolsas de criptomoedas ativas com volumes de negociação c
 A consulta é paginada, retornando 100 criptomoedas por página.
 Possui um campo para filtrar as bolsas, observando-se que o mesmo é aplicado sobre a página atual, ou seja, sobre as 100 bolsas da página.
 
+
 # Setup
 
 Efetue o clone ou baixe o zip e execute:
@@ -18,14 +19,20 @@ Efetue o clone ou baixe o zip e execute:
 npm install
 ```
 
-## Executando
+
+# Executando
 
 ```bash
 npm run dev
 ```
 
-## Base de dados
+
+# Base de dados
 
 Os dados apresentados por esse app tem por base a API pública de CoinGecko: https://www.coingecko.com/api/documentation
 
 A API pública da CoinGecko possui limitações de uso. Para uso intensivo é possível assinar um plano na CoinGecko. Verifique a documentação acima.
+
+
+# Licença
+Esse projeto está sob os termos da The MIT License (MIT).
